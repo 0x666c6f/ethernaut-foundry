@@ -5,7 +5,7 @@ import {Script, console2} from "forge-std/Script.sol";
 import {GatekeeperOne} from "src/gatekeeperone/GatekeeperOne.sol";
 import {GatemasterOne} from "src/gatekeeperone/GateMaster.sol";
 
-contract VaultScript is Script {
+contract GateKeeperOneScript is Script {
     GatekeeperOne internal gatekeeperone;
     GatemasterOne internal gateMaster;
 
